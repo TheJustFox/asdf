@@ -38,10 +38,11 @@ Usage:
 print(1, "some text");
 ```
 First argument is the **style of your text**. There is:
-- Information (0)
+- Normal (0)
 - Information (1)
 - Warning (2)
 - Error (3)
+
 Second and last argument is your text.
 
 # GetTaskScheduler
