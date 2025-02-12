@@ -1,6 +1,5 @@
 ---
 title: "How to update offsets in ballistic"
-date: "2025-02-09"
 ---
 # Information
 I would suggest you write your own exploit if you actually manage to get ballistic running with this tutorial 🙏.
