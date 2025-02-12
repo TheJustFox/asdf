@@ -28,10 +28,8 @@ Implementation:
 ```c++
 // rebase
 #define rebase(offset) offset + (uintptr_t)GetModuleHandle(nullptr)
-
 // in offsets...
 const uintptr_t print = rebase(0x11FBE70);
-
 // in functions...
 using _print = int(__fastcall*)(int, const char*, ...);
 inline auto print = (_print)offsets::print; // offsets::print - path to your offset
