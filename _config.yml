@@ -1,5 +1,5 @@
 remote_theme: pages-themes/midnight@v0.2.0
 collections:
-  blog:
+  posts:
     output: true
-    permalink: /blog/:title
+    permalink: /post/:title
