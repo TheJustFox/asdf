@@ -1,5 +1,5 @@
 ---
-title: "Datmodel tutorial yay"
+title: "Datamodel tutorial yay"
 ---
 This tutorial is for people that are only starting making exploits and shows my way of getting datamodel. There is both external and internal ways and easy to implement. This one uses **visualengine** offset/pointer which is really useful for external and also allows you to get the datamodel :D
 offsets:
