@@ -17,8 +17,8 @@ uintptr_t datamodel = memory.read(fake_datamodel + offsets::datamodel); // tada
 ```
 Internal:
 ```c++
-#define cast(type, address) reinterpret_cast<type*>(address)
-#define repoint(type, address) *cast(type, address)
+#define cast(address) reinterpret_cast<uintptr_t*>(address)
+#define repoint(address) *cast(address)
 // ...
 repoint(repoint(0x5A92FD0) + offsets::roblox::renderview_to_fake) + offsets::roblox::fake_to_real;
 ```
